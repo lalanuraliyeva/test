@@ -15,20 +15,21 @@ public class A6 {
         //Input value: 25
         //Positive number
 
-        int number =9999999;
+        int number = 9999999;
 
-        if(number == 0 ) {
+        if (number == 0) {
             System.out.println("zero");
-        } else if (number>0) {
+        } else if (number > 0) {
             System.out.println("positive");
-            if (number>1000000) {
+            if (number > 1000000) {
                 System.out.println("large");
             }
-        } else if(number<0){
+        } else if (number < 0) {
             System.out.println("negative");
-        } else if (number<1) {
+        } else if (number < 1) {
             System.out.println("small");
         }
 
 
     }
+}
