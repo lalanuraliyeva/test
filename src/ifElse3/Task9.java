@@ -7,10 +7,13 @@ public class Task9 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("write a day of week");
         int day = scanner.nextInt();
+        String monday = "Monday";
 
         switch (day) {
             case 1:
-                System.out.println("Monday");
+                System.out.println(monday);
+                System.out.println(monday.toUpperCase());
+                System.out.println(monday.length());
                 break;
             case 2:
                 System.out.println("Tuesday");
