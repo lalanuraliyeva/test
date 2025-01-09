@@ -11,5 +11,7 @@ public class RussianRoulette {
         if (randomNumber == 4){
             System.out.println("öldün!");
         }
+
+        //Russian Roulette
     }
 }
